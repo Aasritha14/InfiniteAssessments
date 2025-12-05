@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|c:\\users\\aasrithar\\onedrive - infinite computer solutions (india) limited\\20th nov\\solid principles\\srp\\srp\\dependency_injection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|solutionrelative:srp\\dependency_injection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|c:\\users\\aasrithar\\onedrive - infinite computer solutions (india) limited\\20th nov\\solid principles\\srp\\srp\\usingdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|solutionrelative:srp\\usingdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SRP||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\srp\\usingisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|solutionrelative:srp\\usingisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\srp\\usinglsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|solutionrelative:srp\\usinglsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\srp\\usingocp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|solutionrelative:srp\\usingocp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\srp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|solutionrelative:srp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3889262C-D916-45DE-961B-BB56C6D05971}|SRP\\SRP.csproj|c:\\users\\aasrithar\\onedrive - infinite computer solutions (india) limited\\20th nov\\solid principles\\srp\\srp\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dependency_Injection.cs",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\Dependency_Injection.cs",
+              "RelativeDocumentMoniker": "SRP\\Dependency_Injection.cs",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\Dependency_Injection.cs",
+              "RelativeToolTip": "SRP\\Dependency_Injection.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwDoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T05:55:32.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SRP",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\SRP.csproj",
+              "RelativeDocumentMoniker": "SRP\\SRP.csproj",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\SRP.csproj",
+              "RelativeToolTip": "SRP\\SRP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-20T09:04:42.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsingDIP.cs",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingDIP.cs",
+              "RelativeDocumentMoniker": "SRP\\UsingDIP.cs",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingDIP.cs",
+              "RelativeToolTip": "SRP\\UsingDIP.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:07:40.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsingISP.cs",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingISP.cs",
+              "RelativeDocumentMoniker": "SRP\\UsingISP.cs",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingISP.cs",
+              "RelativeToolTip": "SRP\\UsingISP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:51:11.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsingLSP.cs",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingLSP.cs",
+              "RelativeDocumentMoniker": "SRP\\UsingLSP.cs",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingLSP.cs",
+              "RelativeToolTip": "SRP\\UsingLSP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:39:22.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsingOCP.cs",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingOCP.cs",
+              "RelativeDocumentMoniker": "SRP\\UsingOCP.cs",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\UsingOCP.cs",
+              "RelativeToolTip": "SRP\\UsingOCP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:37:16.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\Program.cs",
+              "RelativeDocumentMoniker": "SRP\\Program.cs",
+              "ToolTip": "C:\\Users\\aasrithar\\OneDrive - Infinite Computer Solutions (India) Limited\\20th Nov\\SOLID principles\\SRP\\SRP\\Program.cs",
+              "RelativeToolTip": "SRP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:12:57.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

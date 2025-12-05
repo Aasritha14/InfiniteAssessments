@@ -1,0 +1,8 @@
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\bin\Debug\SRP.exe.config
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\bin\Debug\SRP.exe
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\bin\Debug\SRP.pdb
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\obj\Debug\SRP.csproj.AssemblyReference.cache
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\obj\Debug\SRP.csproj.CoreCompileInputs.cache
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\obj\Debug\SRP.exe
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\obj\Debug\SRP.pdb
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\20th Nov\SOLID principles\SRP\SRP\obj\Debug\SRP.exe.config
