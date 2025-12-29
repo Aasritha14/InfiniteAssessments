@@ -1,0 +1,8 @@
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\bin\Debug\Linq.exe.config
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\bin\Debug\Linq.exe
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\bin\Debug\Linq.pdb
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\obj\Debug\Linq.csproj.AssemblyReference.cache
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\obj\Debug\Linq.exe
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\obj\Debug\Linq.pdb
+C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\SQL to DOTNET Assignments\LINQ Assignment\Linq\Linq\obj\Debug\Linq.exe.config
