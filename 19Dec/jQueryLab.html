@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Assignment</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <!--1. Write a jquery program to  copy content from one div to other when 
+button is clicked -->
+<br></br>
+<h1>Question-1</h1>
+
+<div class="J box" id="div1" style="border:2px solid blue; padding:10px; width:200px;">Hi I am Jungkook of BTS</div>
+
+  <input type="button" id="I" value="Copy content">
+
+  <div class="J box" id="div2" style="border:2px solid blue; padding:10px; width:200px;"></div>
+
+  <script>
+    $("#I").on("click", function () {
+      var content = $("#div1").html(); 
+      $("#div2").html(content);        
+    });
+  </script>
+
+
+  <!--2.  Create a jquery program to hide the div element when div tag is clicked. -->
+  <br></br>
+  <h2>Question-2</h2>
+
+  
+<div class="box" id="myDiv">AASRITHA</div>
+
+<script>
+
+  $("#myDiv").on("click", function () {
+    $(this).hide();
+  });
+</script>
+
+<!--3. Create a jquery program to change the image when button is clicked. 
+Hint : 
+$('#imageid').attr('src', 'hello.png');-->
+
+<br></br>
+<h3>Question-3</h3>
+
+<img id="imageid" src="C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Picutres\Cherry Blossom.png" width="200"><br></br>
+<button id="Cherry">Change Image</button>
+<script>
+       $(document).ready(function () {
+           $("#Cherry").click(function () {
+               $("#imageid").attr("src", "C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Picutres\CB.png");
+           });
+       });
+</script>
+
+
+<!--4. write a Jquery program to change the color of all textboxes to blue when 
+button is clicked(create 3 textboxes for same) -->
+<br></br>
+<h4>Question-4</h4>
+
+
+
+<input type="text" id="tb1" placeholder="Textbox 1">
+  <input type="text" id="tb2" placeholder="Textbox 2">
+  <input type="text" id="tb3" placeholder="Textbox 3">
+
+
+  <input type="button" id="changeColorBtn" value="Change Color">
+
+ <script>
+   
+$(function () {
+      $("#changeColorBtn").on("click", function () {
+       
+        $("input[type='text']")
+          .css({
+            "background-color": "blue",
+            "color": "white",  
+            "border-color": "#1e3a8a"
+          });
+      });
+    });
+
+ </script>
+
+ <!--5. Create a login screen to validate username and password using jquery-->
+
+ <br></br>
+ <h5>Question-5</h5>
+ <div class="login-box">
+    <h2>Login</h2>
+ 
+    <input type="text" id="uname" placeholder="Username">
+    <input type="password" id="pwd" placeholder="Password">
+ 
+    <input type="button" id="btnLogin" value="Login">
+ 
+    <div id="msg"></div>
+</div>
+ 
+<script>
+ 
+    $("#btnLogin").click(function () {
+        var username = $("#uname").val();
+        var password = $("#pwd").val();
+ 
+        if (username === "admin" && password === "1234") {
+            $("#msg").text("Login Successful").css("color", "green");
+        } else {
+            $("#msg").text("Invalid Username or Password").css("color", "red");
+        }
+    });
+</script>
+<br><br>
+<a class="back-link" href="JQuery-6.html">Move to Next One-></a>  
+
+<!--6. Create a jquery program to change the textbox backgroundcolor, 
+bordercolor when focus is  on any textbox -->
+
+<br></br>
+<h6>Question-6</h6>
+
+
+<input type="text" placeholder="Enter text here">
+<input type="text" placeholder="Second textbox">
+<input type="text" placeholder="Third textbox">
+
+
+<script>
+    $(document).ready(function(){
+    $("input[type='text']").focus(function(){
+    $(this).css({
+    "background-color": "black",  
+    "border-color": "green"      
+    });
+    }).blur(function(){
+    $(this).css({
+    "background-color": "#fff",     
+    "border-color": "#ccc"          
+    });
+          });
+    });
+</script>
+
+<!--7. Create a any  jquery program to show mouseover and mouseevent-->
+<br></br>
+<h7>Question-7</h7>
+
+<div id="box">Hover!!!!!!!</div>
+
+<script>
+    $(document).ready(function(){
+        $("#box").mouseover(function(){
+            $(this).css("background-color", "#4caf50");
+            $(this).text("Mouse Over!!!!!!!");
+        });
+
+        $("#box").mouseout(function(){
+            $(this).css("background-color", "teal green");
+            $(this).text("Hover!!!!!!!");
+        });
+    })
+</script>
+
+<!--8. Find all h1 elements that are children of a div element and apply a 
+background to them. -->
+<br></br>
+<h8>Question-8</h8>
+
+
+<div>
+  <h1>This is an H1 inside a DIV</h1>
+  <p>This is insdied DIV</p>
+  
+<div>
+  <h1>Another H1 inside a DIV</h1>
+</div>
+<h1>This H1 is outside any DIV</h1>
+
+<script>
+  $(document).ready(function(){
+      $("div > h1").css("background-color", "#ffeb3b"); 
+  });
+</script>
+
+</div>
+
+<!--9.  Develop a jquery code to count the following 
+a.  
+b. 
+c. 
+No of H1 
+No of Div 
+No of Paragraphs 
+Hint : use Length Property for same-->
+
+<br></br>
+<h9>Question-9</h9>
+
+<h1>Heading 1</h1>
+    <h1>Another Heading</h1>
+    <div>This is a div</div>
+    <div>Another div</div>
+    <p>This is a paragraph</p>
+    <p>Another paragraph</p>
+
+    <button id="countBtn">Count Elements</button>
+    <div id="result" style="margin-top:10px; font-weight:bold;"></div>
+
+    <script>
+        $(document).ready(function(){
+            $("#countBtn").click(function(){
+                var h1Count = $("h1").length;
+                var divCount = $("div").length - 1; 
+                var pCount = $("p").length;
+
+                $("#result").html(
+                    "Number of H1: " + h1Count + "<br>" +
+                    "Number of DIV: " + divCount + "<br>" +
+                    "Number of Paragraphs: " + pCount
+                );
+            });
+        });
+    </script>
+
+    <!--10. Write  jquery code to change the height and width of image when 
+button is clicked 
+Hint :  use attr  method-->
+<br></br>
+<h10>Question-10</h10>
+
+"C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Picutres\CB.png"
+    <br>
+    <button id="resizeBtn">Resize Image</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#resizeBtn").click(function(){
+                $("#myImage").attr({
+                    "width": "300",  // New width
+                    "height": "300"  // New height
+                });
+            });
+        });
+    </script>
+
+
+<!--11. Write a jquery code to display selected country names from 
+dropdownlist in DIV Tag  -->
+<br></br>
+<h11>Question-11</h11>
+
+
+<select id="countryList" multiple>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+    <option value="South Korea">South Korea</option>
+    <option value="Australia">Australia</option>
+</select>
+
+
+<br><br>
+    <button id="showSelected">Show Selected</button>
+
+    <div id="result" style="margin-top:20px; font-weight:bold;"></div>
+
+    
+<script>
+    $(document).ready(function(){
+        $("#showSelected").click(function(){
+            var selectedCountries = $("#countryList option:selected").map(function(){
+                return $(this).text();
+            }).get().join(", ");
+        });
+    });
+</script>
+
+
+
+
+
+<!--12. Develop a code to display content of form elements in new window 
+eg:- 
+enter Name  [textbox] 
+Select Gender  [Radio][Radio] 
+Enter Designation [Dropdown] 
+Enter Address [TextArea] 
+[Display Buton]-->
+<br></br>
+<h12>Quetion-12</h12>
+
+
+<div class="form-row">
+    <label for="name">Enter Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <span class="required">*</span>
+  </div>
+
+  <div class="form-row">
+    <label>Select Gender:</label>
+    <label><input type="radio" name="gender" value="Male" /> Male</label>
+    <label style="margin-left: 16px;"><input type="radio" name="gender" value="Female" /> Female</label>
+    <label style="margin-left: 16px;"><input type="radio" name="gender" value="Other" /> Other</label>
+    <span class="required">*</span>
+  </div>
+
+  <div class="form-row">
+    <label for="designation">Enter Designation:</label>
+    <select id="designation">
+      <option value="">-- Select Designation --</option>
+      <option>Trainee</option>
+      <option>Developer</option>
+      <option>Senior Developer</option>
+      <option>Lead</option>
+      <option>Manager</option>
+    </select>
+    <span class="required">*</span>
+  </div>
+
+  <div class="form-row">
+    <label for="address">Enter Address:</label>
+    <textarea id="address" placeholder="Type your address here..."></textarea>
+  </div>
+
+  <div class="actions">
+    <button id="displayBtn">Display</button>
+    <button type="reset" onclick="document.querySelector('form')?.reset()">Reset (if using a form)</button>
+  </div>
+
+
+
+    
+</body>
+</html>

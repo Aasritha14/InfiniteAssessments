@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <script>
+        //1. Develop JavaScript code to find greatest of 3 numbers
+        document.write("<br>");
+        var a=30;
+        var b=60;
+        var c=100;
+        if (a >= b && a >= c) {
+           greatest = a;
+        } else if (b >= a && b >= c) {
+        greatest = b;
+        } else {
+        greatest = c;
+       }
+
+       document.write("Greates number is :" + greatest);
+
+       //2. Develop JavaScript to find simple interest of number 
+       document.write("<br>");
+       var p=2000;
+       var t=3;
+       var r=8;
+
+       var si=(p * t * r) /100;
+
+       document.write("Simple Interest is : " + si);
+
+       //3. Write a JavaScript program to get the difference between a given number and 13, if the number is 
+       //greater than 13 return double the difference.
+       document.write("<br>");
+       var num=50;
+       var result;
+
+       if(num>13){
+        result=(num-13) * 2;
+       } else{
+        result = 13 - num;
+       }
+
+       document.write("Result is : " + result);
+
+       //4.Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the 
+       //current number is odd or even, and display a message to the screen
+       document.write("<br>");
+
+ 
+       for (var i = 0; i <= 15; i++) {
+       if (i % 2 === 0) {
+        document.write(i + " is Even<br>");
+       } else {
+        document.write(i + " is Odd<br>");
+       }
+}
+
+
+
+    </script>
+
+<!--1. Develop a code to change the color of div tag based on color selected from drop down 
+list-->
+
+    <select onchange="changeColor(this.value)">
+        <option value="">Select Color</option>
+        <option value="black">Black</option>
+        <option value="grey">Grey</option>
+        <option value="white">White</option>
+        <option value="red">Red</option>
+        <option value="pink">Pink</option>
+        <option value="green">Green</option>
+        <option value="brown">Brown</option>
+        <option value="silver">Silver</option>
+
+    </select>
+    <div id="box" style="width: 150px; height: 150px; border: 1px solid black;"></div>
+
+    <script>
+        document.write("<br>");
+        function changeColor(color){
+            document.getElementById("box").style.backgroundColor = color;
+        }
+    </script>
+
+    <!--2. Develop a code to validate username and password,  
+a. Username should be admin password should in india 
+b. change the colour of textbox to red if entered details is wrong and also display error 
+message in alertbox 
+c. if the user entered valid details navigate to home.html page 
+Hint use window.location=”home.html” -->
+
+
+<input type="text" id="user" placeholder="Username">
+<input type="password" id="pass" placeholder="Password">
+<button onclick="login()">Login</button>
+
+<script>
+   
+        function login(){
+        var u = document.getElementById("user").value;
+        var p = document.getElementById("pass").value;
+
+        if (u === "admin" && p === "korea"){
+            window.location = "Gallary.html";
+
+        } else{
+            document.getElementById("user").style.backgroundColor = "red";
+            document.getElementById("pass").style.backgroundColor = "red";
+            alert("Invalid username or password");
+        }
+    }
+</script>
+
+<!--3.  Create table with following data 
+EmployeePhoto 
+EmpName 
+DisplayImage 
+Ajay 
+DisplayImage 
+Raj-->
+
+<br></br>
+<h1 style="text-align: left;">Question 3</h1>
+<table border="1">
+    <tr>
+        <th>EmployeePhoto</th>
+        <th>Empname</th>
+    </tr>
+    <tr>
+        <td>
+            <img id="img1" src="C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Picutres\Beanie.jpg" alt="EmployeePhoto">
+        </td>
+        <td>Jungkook</td>
+    </tr>
+    
+    
+    <tr>
+        <td>
+            <img id="img2" src="C:\Users\aasrithar\OneDrive - Infinite Computer Solutions (India) Limited\Desktop\Picutres\Flower.jpg" alt="EmployeePhoto">
+        </td>
+        <td>Raj</td>
+    </tr>
+</table>
+<br>
+
+<button onclick="toggleImage()">Hide / Show Image</button>
+
+<script>
+    function toggleImage(){
+        var img = document.getElementById("img1");
+        if (img.style.display === "none") {
+            img.style.display = "block";
+        } else {
+            img.style.display ="none";
+        }
+    }
+</script>
+
+<!--4. Develop a code to accept number and name from the user using 2 textboxes. 
+Display your name inside div tag as much as time the given number Eg: If user 
+enters 3, then display your name in div tag for 3 times-->
+<br></br>
+<h3 style="text-align: left;">Question 4</h3>
+Name:
+<input type="text" id="name"><br><br>
+
+Number:
+<input type="number" id="num"><br><br>
+<button onclick="show()">Display</button>
+<div id="result"></div>
+
+<script>
+    function show(){
+        var name = document.getElementById("name").value;
+        var num = document.getElementById("num").value;
+        var i;
+        var output = "";
+
+        for (i = 1; i <= num; i++){
+            output = output + name + "<br>";
+        }
+
+        document.getElementById("result").innerHTML = output;
+    }
+</script>
+
+<!--5. Develop a JavaScript code to change the image at regular interval 
+Hint use: set Interval() Method-->
+<br></br>
+<h4 style="text-align: left;">Question 5</h4>
+
+
+<img id="img" src="Beanie.jpg" width="200" height="200">
+ 
+ 
+<script>
+    var images = ["Beanie.jpg", "Ck.jpg", "Beanie.jpg"];
+    var i = 0;
+ 
+    setInterval(function(){
+        document.getElementById("img").src = images[i];
+        i++;
+ 
+        if(i == images.length){
+            i = 0;
+        }
+    }, 1000);
+</script>
+
+
+
+
+
+    
+</body>
+</html>

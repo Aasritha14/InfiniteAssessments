@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+<body>
+
+    
+<div class="c">click here ......</div>
+<input type="button" id="b1" class="c" value="click here1"/>
+
+<input type="button" id="b2" value="click here2"/>
+
+<input type="button" id="b3" value="click here3"/>
+
+<input type="text" id="t1" />
+<input type="text" id="t2" />
+<div>second</div>
+<script src="jquery.js"></script>
+
+<script>
+// click button == print hello world in alertbox
+// in jquery button will not call function , function will call the button
+// FIND SOMETHING DO SOMETHING
+
+$("#b1").click(function()
+{
+alert("hello world");
+}
+)  
+
+$("#b2").click(function()
+{
+alert("hello students");
+}
+)  
+
+$("#b3").click(function()
+{
+var a = parseInt($("#t1").val());
+var b = parseInt($("#t2").val());
+c=a+b;
+alert(c);
+}
+)  
+
+
+
+</script>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register.html</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Article.html">Article</a>
+         <a href="Register.html">Register</a>
+         <a href="Gallary.html">Gallary</a>
+         <a href="Contact.html">Contact</a>
+         <a href="videos.html">Videos</a>
+       </nav>
+ 
+  <main class="page">
+    <fieldset class="card">
+      <legend>Employee Details Form</legend>
+ 
+      
+      <label for="empId">EmployeeId</label>
+      <input type="text" id="empId" name="empId" placeholder="enter employeeid" />
+ 
+      
+      <label for="empName">EmployeeName</label>
+      <input type="text" id="empName" name="empName" placeholder="enter employeename" />
+ 
+      
+      <label for="dob">DOB</label>
+      <input type="text" id="dob" name="dob" placeholder="dd - mm - yyyy" />
+ 
+     
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="" />
+ 
+      
+      <label for="site">Personal Site</label>
+      <input type="url" id="site" name="site" placeholder="" />
+ 
+      
+      <div class="row">
+        <div class="col">
+          <label for="projectId">ProjectId</label>
+          <input type="number" id="projectId" name="projectId" value="10" />
+        </div>
+        <div class="col">
+          <label for="projectMonth">Project Month</label>
+          <input type="month" id="projectMonth" name="projectMonth" />
+        </div>
+      </div>
+ 
+      
+      <div class="row">
+        <div class="col">
+          <label for="projectWeek">Project week</label>
+          <input type="week" id="projectWeek" name="projectWeek" />
+        </div>
+        <div class="col">
+          <label for="meetingTime">Meeting Time</label>
+          <input type="time" id="meetingTime" name="meetingTime" />
+        </div>
+      </div>
+ 
+      
+      <div class="row align-center">
+        <div class="col">
+          <label for="status">Project Status</label>
+          <input type="range" id="status" name="status" min="0" max="100" value="25" />
+        </div>
+        <div class="col color-col">
+          <label for="dress">Dress</label>
+          <input type="color" id="dress" name="dress" value="#ffffff" />
+        </div>
+      </div>
+ 
+      
+      <label for="code">Code</label>
+      <input type="password" id="code" name="code" />
+ 
+     
+      <div class="actions">
+        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn alt">Submit</button>
+      </div>
+    </fieldset>
+  </main>
+</body>
+</html>

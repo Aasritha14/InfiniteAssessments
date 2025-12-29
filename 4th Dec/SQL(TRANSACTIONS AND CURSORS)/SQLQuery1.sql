@@ -152,85 +152,9 @@ Observe changes and understand non-repeatable reads.
 **/
 
 
-/* =========================================================
-   Non-Repeatable Read Demo (SQL Server) — Single Script
-   ========================================================= */
-
--- 0) Setup (run once in any session)
-IF OBJECT_ID('dbo.Employees', 'U') IS NOT NULL
-    DROP TABLE dbo.Employees;
-GO
-
-CREATE TABLE dbo.Employees (
-    EmployeeID INT PRIMARY KEY,
-    Name       NVARCHAR(100),
-    Salary     INT
-);
-GO
-
-INSERT INTO dbo.Employees(EmployeeID, Name, Salary)
-VALUES (101, N'Alex', 80000);
-GO
 
 
-/* =========================
-   SESSION 1 (Reader)
-   ========================= */
--- Open this in SSMS Tab #1
 
--- Use READ COMMITTED (default), where non-repeatable reads can occur
-SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
-begin transaction;
-
-print 'Session 1: First read';
-select  Salary as FirstReadSalary
-from dbo.Employees
-where EmployeeID = 101;
-
--- >>> PAUSE HERE <<<
--- Now switch to SSMS Tab #2 and run the "SESSION 2" block below.
--- After Session 2 COMMITs, come back and run the next lines.
-
-print 'Session 1: Second read (after Session 2 updated & committed)';
-select Salary as SecondReadSalary
-from dbo.Employees
-where EmployeeID = 101;
-
--- Expectation:
--- FirstReadSalary = 80000
--- SecondReadSalary = 90000 (changed in between by Session 2)
-
-commit;
-GO
-
-
-/* =========================
-   SESSION 2 (Writer)
-   ========================= */
--- Open this in SSMS Tab #2 (run while Session 1 is paused between reads)
-
-begin transaction;
-
-print 'Session 2: Updating salary to 90000';
-update dbo.Employees
-set Salary = 90000
-where EmployeeID = 101;
-
-commit;
-GO
-
-
-/* =========================
-   Verification & Cleanup
-   ========================= */
-
--- Final check (run anywhere after both sessions finished)
-select  EmployeeID, Name, Salary
-from dbo.Employees
-where EmployeeID = 101;
-
--- Optional: reset salary if you want to repeat the demo
--- UPDATE dbo.Employees SET Salary = 80000 WHERE EmployeeID = 101;
 
 
 
